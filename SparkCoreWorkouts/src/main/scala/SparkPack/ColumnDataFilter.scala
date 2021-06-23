@@ -12,7 +12,7 @@ object ColumnDataFilter {
 			sc.setLogLevel("ERROR");
 
 			//			read usdata.csv
-			println("============= RAW DATA ==================")
+			println("============= RAW DATA Change==================")
 			val data = sc.textFile("file:///D:/data/usdata.csv")
 			data.take(5).foreach(println)
 
